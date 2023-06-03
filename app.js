@@ -27,9 +27,9 @@ app.use(
 
 // Importing & Using Routes
 import course from "./routes/CourseRoutes.js";
-import user from "./routes/userRoutes.js";
+import user from "./routes/UserRoutes.js";
  import payment from "./routes/paymentRoutes.js";
-import other from "./routes/otherRoutes.js";
+import other from "./routes/OtherRoutes.js";
 
 app.use("/api/v1", course);
 app.use("/api/v1", user);
